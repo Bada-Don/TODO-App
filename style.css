@@ -1,0 +1,122 @@
+body {
+    background-color: #c6e0ff;
+    margin: 0%;
+    padding: 0%;
+    /* justify-items: center; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* This ensures the body takes at least the full height of the viewport */
+}
+
+h1 {
+    color: #253031;
+    font-family: "Single Day", cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.allinputs {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #2978A0;
+    color: #ffffff;
+
+    width: 20rem;
+    height: 4rem;
+
+    border-top-left-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
+    border: 2px solid transparent;
+
+    font-size: 2rem;
+    font-family: "Single Day", cursive;
+
+    margin: 0rem;
+    padding: 0m;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: "Single Day", cursive;
+}
+
+#addtask {
+    width: 10rem;
+    height: 4rem;
+
+    font-size: 2rem;
+    font-family: "Single Day", cursive;
+    color: #fff;
+
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #000000;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+    font-family: 'single day';
+    font-size: 2.5rem;
+    background-color: #DFD5A5;
+
+    width: 80%;
+    height: auto;
+    border-radius: 1.3rem;
+}
+
+li {
+    
+    display: flex;
+    justify-content: space-between;
+    /* Align items to the right */
+    align-items: center;
+    /* Center vertically */
+    width: 80%;
+    border-bottom: 1.5px solid #000000;
+    list-style-position: inside;
+    
+}
+
+.done {
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    color: whitesmoke;
+    background-color: green;
+    font-family: "Single Day", cursive;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
